@@ -8,6 +8,8 @@ ul {
     margin-top: -15px;
     padding: 0;
     overflow: hidden;
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 li.rightBar {
@@ -51,8 +53,8 @@ li a.active {
 }
 
 body {
-    background: black;
+    background: rgb(255, 255, 255);
     font-family: bungee;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
