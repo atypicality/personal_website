@@ -3,31 +3,26 @@
     src: url(../Fonts/BungeeLayers-Regular.otf);
 }
 
-ul {
+header {
+    background-color: azure;
+    border-radius: 10px;
+}
+
+header ul {
     list-style-type: none;
     margin-top: -15px;
     padding: 0;
     overflow: hidden;
     background: transparent;
-    backdrop-filter: blur(10px);
 }
 
-li.rightBar {
-    float: right;
-}
-
-li.logo {
-    float: left;
+header li {
+    display: inline;
     font-size: 25px;
     text-shadow: 2px 2px 5px rgb(102, 0, 255);
 }
-
-li {
-    font-family: bungee;
-}
   
-li a {
-    display: block;
+header li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -35,26 +30,34 @@ li a {
     text-shadow: 2px 2px 5px rgb(102, 0, 255);
 }
   
-li a:hover {
+header li a:hover {
     background-color: #1e1d1d;
     color: rgb(211, 207, 207);
 }
 
-li a.active {
+header li a.active {
     text-decoration: underline;
     text-decoration-color:rgb(31, 229, 235);
     text-shadow: 2px 2px 5px rgb(31, 229, 235);
 }
 
-#EighthWonderNavBar {
-    height: 50px;
-    width: 50px;
-    margin-top: 5px;
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+section {
+    background-color: azure;
+    border-radius: 10px;;
 }
 
 body {
-    background: rgb(255, 255, 255);
     font-family: bungee;
     color: rgb(0, 0, 0);
     text-align: center;
+    background-image: url('../Images/background_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 1000px;
 }
