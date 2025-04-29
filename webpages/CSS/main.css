@@ -6,6 +6,21 @@
 header {
     background-color: azure;
     border-radius: 10px;
+    width: 75%;
+    margin: auto;
+}
+
+header h1 {
+    text-decoration: underline;
+    text-decoration-color:rgb(31, 229, 235);
+    text-shadow: 2px 2px 5px rgb(31, 229, 235);
+    font-size: 300%;
+    margin-bottom: -10px;
+    margin-left: 30px;
+}
+
+section h2 {
+    text-shadow: 2px 2px 5px rgb(102, 0, 255);
 }
 
 header ul {
@@ -31,8 +46,7 @@ header li a {
 }
   
 header li a:hover {
-    background-color: #1e1d1d;
-    color: rgb(211, 207, 207);
+    background: rgb(68, 63, 63);
 }
 
 header li a.active {
@@ -41,14 +55,50 @@ header li a.active {
     text-shadow: 2px 2px 5px rgb(31, 229, 235);
 }
 
-.logo {
-    width: 40px;
-    height: 40px;
+#github {
+    width: 44px;
+    height: 44px;
+    margin-bottom: -3px;
+    margin-right: -4px;
+}
+
+#linkedin {
+    width: 37px;
+    height: 37px;
+}
+
+#resume {
+    width: 39px;
+    height: 35px;
+    margin-bottom: 1px;
+    margin-right: -3px;
+}
+
+#email {
+    width: 45px;
+    height: 45px;
+    margin-bottom: -2px;
+}
+
+#selfie {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
 }
 
 section {
     background-color: azure;
-    border-radius: 10px;;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#about-me {
+    background-color: rgb(233, 181, 233);
+    margin: auto;
+    border-radius: 7px;
+    width: 90%;
 }
 
 body {
