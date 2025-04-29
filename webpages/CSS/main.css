@@ -101,6 +101,20 @@ section {
     width: 90%;
 }
 
+#experience {
+    background-color: rgb(233, 181, 233);
+    margin: auto;
+    border-radius: 7px;
+    width: 90%;
+}
+
+#projects {
+    background-color: rgb(233, 181, 233);
+    margin: auto;
+    border-radius: 7px;
+    width: 90%;
+}
+
 body {
     font-family: bungee;
     color: rgb(0, 0, 0);
@@ -109,5 +123,4 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    height: 1000px;
 }
