@@ -31,6 +31,12 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    text-shadow: 2px 2px 5px rgb(168, 42, 210);  
+    font-size: 19px;
+    margin-bottom: -1px;
+}
+
 p {
     margin-bottom: -12px;
     font-size: 17px;
@@ -146,13 +152,22 @@ section {
     margin: auto;
     border-radius: 17px;
     width: 90%;
+    padding-bottom: 10px;
+}
+
+#experience ul{
+    list-style-type: none;
     display: flex;
-    justify-content: center;
+    margin-left: -10px;
 }
 
 .activity-item {
     border-radius: 17px;
     background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 400px;
+    margin-right: 7px;
+    margin-left: 7px;
 }
 
 #projects {
@@ -169,6 +184,21 @@ section {
     width: 30px;
     margin-bottom: -3px;
     margin-left: 2px;
+}
+
+#opex {
+    height: 80px;
+    width: 300px;
+}
+
+#upenn {
+    height: 100px;
+    width: 300px;
+}
+
+#paLogo {
+    height: 100px;
+    width: 280px;
 }
 
 body {
