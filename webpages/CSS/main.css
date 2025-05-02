@@ -167,7 +167,8 @@ section {
 #experience ul{
     list-style-type: none;
     display: flex;
-    margin-left: -10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .activity-item {
@@ -198,7 +199,8 @@ section {
 #projects ul{
     list-style-type: none;
     display: flex;
-    margin-left: -10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #projects ul li .activity-item a {
